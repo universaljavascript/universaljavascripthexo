@@ -6,13 +6,13 @@
 title: Hexo
 subtitle:
 description:
-author: John Doe
-language:
-timezone:
+author: Charalampos Karypidis
+language: en
+timezone: GR
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://universaljavscript.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -68,4 +68,6 @@ theme: landscape
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/universaljavascript/universaljavascript.github.io.git
+  branch: master
